@@ -1,12 +1,15 @@
 <!-- 首页 -->
 <template>
-  <div>blog</div>
+  <div class="indexContainer">
+    123123
+  </div>
 </template>
 
 <script>
 export default {
   name: "Blog",
+  setup() {},
 };
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 </style>
