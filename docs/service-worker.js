@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.82c1a6ff27bc465be9077b54655d7551.js"
+  "/precache-manifest.a934680588ef7b5cc9338354a531ce39.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "blog"});
