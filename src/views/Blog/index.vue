@@ -1,7 +1,7 @@
 <!-- 首页 -->
 <template>
   <div class="indexContainer">
-    <div class="guitarContainer"></div>
+    <div class="guitarRound"></div>
     <div class="guitar string1">
       <span class="about">关于</span>
     </div>
@@ -32,15 +32,14 @@ export default {
 <style lang="stylus" scoped>
 .indexContainer
   height 100%
-  // background-color #333
-  .guitarContainer,.guitarContainer::after,.guitarContainer::before
+  .guitarRound, .guitarRound::after, .guitarRound::before
     position absolute
     border-radius 50%
     box-sizing border-box
     top 50%
     left 50%
     transform translate(-50%, -50%)
-  .guitarContainer
+  .guitarRound
     height 800px
     width 800px
     background-color #221716
@@ -61,30 +60,30 @@ export default {
     position absolute
     box-shadow 0px 16px 8px 0px
     background-color #feeebe
-    background-image linear-gradient(80deg, #867679 50%, transparent 0) 
-    background-size 2px 5px 
-    .about 
+    background-image linear-gradient(80deg, #867679 50%, transparent 0)
+    background-size 2px 5px
+    .about
       position absolute
       left 50%
       transform translateY(-50%)
       bottom 0
       color #fff
-  .string1 
-    height 5px  
+  .string1
+    height 5px
     top 80%
   .string2
-    height 4px  
+    height 4px
     top 68%
   .string3
-    height 3px  
+    height 3px
     top 56%
   .string4
-    height 2px  
+    height 2px
     top 44%
   .string5
-    height 1px  
+    height 1px
     top 32%
   .string6
-    height .5px  
+    height 0.5px
     top 20%
 </style>
